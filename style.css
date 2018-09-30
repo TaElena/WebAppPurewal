@@ -1,19 +1,37 @@
-h1 {
-	font-family: 'Gamja Flower', cursive;
-}
 body {
-	font-size: 100%; /* устанавливаем базовый размер шрифта для всего документа */
+	background: #f9e933;
 }
-h1 {
-	font-size: xx-large; /* установлен относительно базового размера шрифта */
+header, main, footer {
+	min-width: 855px;
 }
-h2 {
-	font-size: x-large;
+header .container, main .container, footer .container {
+	max-width: 855px;
+	margin: auto;
 }
-.important {
-	font-size: larger; /* делает шрифт несколько больше, чем в родительском элементе 
-*/
+header {
+	background: white;
+	overflow: auto;
 }
-.onePointTwo {
-	font-size: 1.2em; /* устанавливает его в 1,2 раза больше базового размера */
+header h1 {
+	float: left;
+	width: 570px;
+}
+header nav {
+	float: right;
+	width: 285px;
+}
+main {
+	background: white;
+}
+/*main img {
+	float: right;
+	width: 285px;
+}*/
+footer .contact {
+	float: left;
+	width: 570px;
+}
+footer .sitmap {
+	float: right;
+	width: 285px;
 }
